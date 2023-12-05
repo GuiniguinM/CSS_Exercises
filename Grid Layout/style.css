@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: #b39cff;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #b2f3bb;
+  border: 5px solid #ccc;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}

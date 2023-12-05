@@ -1,0 +1,22 @@
+.body {
+    color: violet;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
